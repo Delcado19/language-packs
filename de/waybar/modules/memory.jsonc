@@ -1,0 +1,8 @@
+// Language pack 'de': overrides of HyDE's memory.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "memory": {
+    "tooltip-format": "\udb83\udf86 Speicherauslastung: {percentage}%\n\ue266 Belegt: {used:0.2f} GiB / {total:0.2f} GiB\n\udb80\udf5b Verfügbar: {avail:0.2f} GiB\n\uf233 Swap belegt: {swapUsed:0.2f} GiB / {swapTotal:0.2f} GiB ({swapPercentage}%)"
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="favorites">
+                <property name="label">󰓎  Favoriten</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="history">
+                <property name="label">󰋚  Verlauf</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="delete-history">
+                <property name="label">󰆴  Verlauf löschen</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="clear-history">
+                <property name="label">󰎟  Verlauf leeren</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="manage-favorites">
+                <property name="label">󱕣  Favoriten verwalten</property>
+            </object>
+        </child>
+    </object>
+</interface>

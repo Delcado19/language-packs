@@ -1,0 +1,9 @@
+// Language pack 'de': overrides of HyDE's mpris.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "mpris": {
+    "tooltip-format": "{title}\nvon: {artist}\n{position} / {length}\nPlayer: {player}\n\n\udb81\udc0e Klicken für Wiedergabe/Pause\n\udb83\udea4 Scrollen zum Spulen\n\udb81\ude64 Mittelklick: vorheriger Titel\n\udb81\ude62 Rechtsklick: nächster Titel",
+    "tooltip-format-stopped": "Player: {player}\n\n\udb81\udc0e Klicken für Wiedergabe/Pause\n\udb83\udea4 Scrollen zum Spulen\n\udb81\ude64 Mittelklick: vorheriger Titel\n\udb81\ude62 Rechtsklick: nächster Titel"
+  }
+}

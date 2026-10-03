@@ -1,0 +1,9 @@
+// Language pack 'us': overrides of HyDE's bluetooth.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "bluetooth": {
+    "tooltip-format": "{controller_alias}\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\n{num_connections} connected\n\n{device_enumerate}"
+  }
+}

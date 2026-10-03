@@ -1,0 +1,11 @@
+// Language pack 'us': overrides of HyDE's mpd.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "mpd": {
+    "format-disconnected": "Disconnected \uf001",
+    "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped \uf001",
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+  }
+}

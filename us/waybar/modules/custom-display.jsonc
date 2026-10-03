@@ -1,0 +1,8 @@
+// Language pack 'us': overrides of HyDE's custom-display.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "custom/display": {
+    "tooltip-format": "\udb84\udd04  Display settings"
+  }
+}

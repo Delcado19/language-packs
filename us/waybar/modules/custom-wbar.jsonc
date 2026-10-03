@@ -1,0 +1,8 @@
+// Language pack 'us': overrides of HyDE's custom-wbar.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "custom/wbar": {
+    "tooltip-format": "\uf205 Switch bar | \uf2d5 dock"
+  }
+}

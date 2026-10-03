@@ -1,0 +1,9 @@
+// Language pack 'de': overrides of HyDE's idle_inhibitor.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "idle_inhibitor": {
+    "tooltip-format-activated": "<span foreground='#98c379'>\udb80\udd76 Caffeine-Modus aktiv</span>\nVerhindert, dass das System in den Ruhezustand wechselt",
+    "tooltip-format-deactivated": "<span foreground='#e06c75'>\udb81\udeca Caffeine-Modus inaktiv</span>\nDas System folgt den normalen Energieeinstellungen"
+  }
+}

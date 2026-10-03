@@ -1,0 +1,21 @@
+// Language pack 'us': overrides of HyDE's network#bandwidth.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "network#bandwidth": {
+    "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\nDownload: <b>{bandwidthDownBytes}</b>\nUpload: <b>{bandwidthUpBytes}</b>",
+    "tooltip-format-disconnected": "Disconnected"
+  },
+  "network#bandwidthUpBytes": {
+    "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\nDownload: <b>{bandwidthDownBytes}</b>\nUpload: <b>{bandwidthUpBytes}</b>",
+    "tooltip-format-disconnected": "Disconnected"
+  },
+  "network#bandwidthDownBytes": {
+    "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\nDownload: <b>{bandwidthDownBytes}</b>\nUpload: <b>{bandwidthUpBytes}</b>",
+    "tooltip-format-disconnected": "Disconnected"
+  },
+  "network#bandwidthTotalBytes": {
+    "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\nDownload: <b>{bandwidthDownBytes}</b>\nUpload: <b>{bandwidthUpBytes}</b>",
+    "tooltip-format-disconnected": "Disconnected"
+  }
+}

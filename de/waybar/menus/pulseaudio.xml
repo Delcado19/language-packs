@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="toggle-output">
+                <property name="label">  Ausgänge wechseln</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="toggle-mute">
+                <property name="label">  Stummschaltung umschalten</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="select-output">
+                <property name="label">󰴸  Ausgang auswählen</property>
+                <child>
+                    <object class="GtkMenu" id="select-output-menu">
+                        <child>
+                            <object class="GtkMenuItem" id="output1">
+                                <property name="label">Ausgang 1</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkMenuItem" id="output2">
+                                <property name="label">Ausgang 2</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkMenuItem" id="output3">
+                                <property name="label">Ausgang 3</property>
+                            </object>
+                        </child>
+                    </object>
+                </child>
+            </object>
+        </child>
+        <child>
+        </child>
+    </object>
+</interface>

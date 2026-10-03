@@ -1,0 +1,14 @@
+// Language pack 'us': overrides of HyDE's group-mediaplayer.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "custom/mediaplayer-play-pause": {
+    "tooltip-format": "play/pause"
+  },
+  "custom/mediaplayer-next": {
+    "tooltip-format": "next"
+  },
+  "custom/mediaplayer-previous": {
+    "tooltip-format": "previous"
+  }
+}

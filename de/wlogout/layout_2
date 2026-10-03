@@ -1,0 +1,27 @@
+{
+    "label": "lock",
+    "action": "lockscreen.sh",
+    "text": "Sperren",
+    "keybind": "l"
+}
+
+{
+    "label": "logout",
+    "action": "hyde-shell logout",
+    "text": "Abmelden",
+    "keybind": "e"
+}
+
+{
+    "label": "shutdown",
+    "action": "systemctl poweroff",
+    "text": "Herunterfahren",
+    "keybind": "s"
+}
+
+{
+    "label": "reboot",
+    "action": "systemctl reboot",
+    "text": "Neustarten",
+    "keybind": "r"
+}

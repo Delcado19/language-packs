@@ -1,0 +1,8 @@
+// Language pack 'us': overrides of HyDE's group-eyecare.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "backlight#eyecare": {
+    "tooltip-format": "Backlight: {icon} {percent}%\n\n\udb83\udea4 Scroll to change brightness\n\udb83\udcfe Click to toggle hyprsunset"
+  }
+}

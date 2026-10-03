@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<interface>
+
+    <object class="GtkMenu" id="menu">
+
+        <child>
+            <object class="GtkMenuItem" id="lock">
+                <property name="label">󰍁  Sperren</property>
+            </object>
+        </child>
+
+        <child>
+            <object class="GtkMenuItem" id="logout">
+                <property name="label">󰍃  Abmelden</property>
+            </object>
+        </child>
+
+        <child>
+            <object class="GtkMenuItem" id="suspend">
+                <property name="label">󰏦  Bereitschaft</property>
+            </object>
+        </child>
+
+
+        <child>
+            <object class="GtkMenuItem" id="hibernate">
+                <property name="label">󰒲  Ruhezustand</property>
+            </object>
+        </child>
+
+
+        <child>
+            <object class="GtkSeparatorMenuItem" id="delimiter1" />
+        </child>
+
+
+        <child>
+            <object class="GtkMenuItem" id="shutdown_sub">
+                <property name="label">󰚦  Herunterfahren</property>
+
+
+                <child type="submenu">
+                    <object class="GtkMenu">
+                        <child>
+                            <object class="GtkMenuItem" id="shutdown-now">
+                                <property name="label">󰚦  Sofort herunterfahren</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkMenuItem" id="shutdown-wait">
+                                <property name="label">󰚦  Herunterfahren (warten)</property>
+                            </object>
+                        </child>
+                    </object>
+                </child>
+
+
+            </object>
+        </child>
+
+
+        <child>
+            <object class="GtkMenuItem" id="reboot_sub">
+                <property name="label">󰜉  Neustarten</property>
+
+                <child type="submenu">
+                    <object class="GtkMenu">
+                        <child>
+                            <object class="GtkMenuItem" id="reboot-now">
+                                <property name="label">󰜉  Neustarten</property>
+                            </object>
+                        </child>
+                        <child>
+                            <object class="GtkMenuItem" id="reboot-firmware">
+                                <property name="label">󰮫  Neustart ins UEFI</property>
+                            </object>
+                        </child>
+                    </object>
+                </child>
+            </object>
+        </child>
+
+
+    </object>
+
+
+</interface> 

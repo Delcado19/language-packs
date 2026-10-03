@@ -1,0 +1,8 @@
+// Language pack 'de': overrides of HyDE's custom-keybindhint.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "custom/keybindhint": {
+    "tooltip-format": "\uf11c  Tastenkürzel"
+  }
+}

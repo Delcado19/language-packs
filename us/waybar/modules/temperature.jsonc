@@ -1,0 +1,14 @@
+// Language pack 'us': overrides of HyDE's temperature.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "temperature#2": {
+    "tooltip-format": "GPU Temperature: {temperatureC}°C\nNVIDIA GeForce MX250"
+  },
+  "temperature#27": {
+    "tooltip-format": "CPU Temperature: {temperatureC}°C\nIntel(R) Core(TM) i7-10510U"
+  },
+  "temperature#0": {
+    "tooltip-format": "System Temperature: {temperatureC}°C\nACPI Thermal Zone"
+  }
+}

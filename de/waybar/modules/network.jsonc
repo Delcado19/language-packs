@@ -1,0 +1,9 @@
+// Language pack 'de': overrides of HyDE's network.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "network": {
+    "tooltip-format": "Netzwerk: <big><b>{essid}</b></big>\nSignalstärke: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequenz: <b>{frequency}MHz</b>\nSchnittstelle: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetzmaske: <b>{netmask}</b>",
+    "tooltip-format-disconnected": "Nicht verbunden"
+  }
+}

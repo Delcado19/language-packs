@@ -1,0 +1,22 @@
+# Language pack 'us': deploy with
+#   deez dots --config language-pack-us.toml --source . --deploy language-pack-us
+# and remove again with
+#   deez dots --config language-pack-us.toml --source . --uninstall language-pack-us
+[language-pack-us]
+description = "US English (reference template): translated text for HyDE's Waybar modules"
+version = "0.1.0"
+owner = "The HyDE Project"
+action = "sync"
+
+[[language-pack-us.files]]
+action = "sync"
+source_root = "us"
+target_root = "${XDG_DATA_HOME}/hyde/locale/us"
+paths = ["waybar", "wlogout"]
+
+# The bash catalog l10n.sh sources; it reads hyde/locale/<lang>.sh, next to the folder above.
+[[language-pack-us.files]]
+action = "sync"
+source_root = "us"
+target_root = "${XDG_DATA_HOME}/hyde/locale"
+paths = ["us.sh"]

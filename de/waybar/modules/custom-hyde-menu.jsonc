@@ -1,0 +1,8 @@
+// Language pack 'de': overrides of HyDE's custom-hyde-menu.jsonc.
+// Only the text keys are here; Waybar merges this over HyDE's module and the rest stays HyDE's.
+// Keep every {placeholder} exactly as it is.
+{
+  "custom/hyde-menu": {
+    "tooltip-format": "Rechtsklick für weitere HyDE-Optionen"
+  }
+}

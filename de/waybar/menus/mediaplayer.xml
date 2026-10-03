@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkMenu" id="menu">
+        <child>
+            <object class="GtkMenuItem" id="play-pause">
+                <property name="label">  Wiedergabe/Pause</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="next">
+                <property name="label">󰒭  Nächster Titel</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="previous">
+                <property name="label">󰒮  Vorheriger Titel</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="stop">
+                <property name="label">󰓛  Stopp</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="shuffle">
+                <property name="label">  Zufallswiedergabe</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="repeat">
+                <property name="label">󰑘  Einmal wiederholen</property>
+            </object>
+        </child>
+        <child>
+            <object class="GtkMenuItem" id="loop">
+                <property name="label">󰑖  Wiederholen</property>
+            </object>
+        </child>
+
+        <child>
+            <object class="GtkMenuItem" id="disable-loop">
+                <property name="label">󰑗  Wiederholung ausschalten</property>
+            </object>
+        </child>
+
+
+    </object>
+</interface>
